@@ -9,7 +9,7 @@ This assignment involves implementing a solution to the Producer-Consumer proble
 - User processes act as producers, generating print requests with random sizes.
 - Printer threads serve as consumers, processing print jobs from the global queue.
 - Command-line parameters include the number of producer processes and printer threads.
-- Random delays between print jobs are simulated using `nanosleep()` or `sleep()`.
+- Random delays between print jobs are simulated using `nanosleep()'.
 - Semaphores are used for synchronization and mutual exclusion.
 - Shared memory is utilized for inter-process communication.
 - Graceful termination of threads is ensured using signal handlers.
